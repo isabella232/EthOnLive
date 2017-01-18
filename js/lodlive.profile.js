@@ -12,6 +12,18 @@ $.jStorage.set('profile', {
 				label: 'Block 1128001',
 				uri: 'http://ethereum.ethstats.io/Block_1128001'
 			}]
+			},{
+		'http://ethon.consensys.net/': {
+			description: {
+				en: 'EthOn Ethereum Ontology'
+				},
+			useForInverseSameAs: true,
+			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
+			endpointType : 'blazegraph',
+			examples: [{
+				label: 'A Block',
+				uri: 'http://ethon.consensys.net/Block'
+			}]
 			},
 		// base degli about dei documenti non dell'ontologia
 		'http://fr.dbpedia.org' : {
