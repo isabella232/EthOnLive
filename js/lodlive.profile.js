@@ -17,7 +17,7 @@ $.jStorage.set('profile', {
 			description: {
 				en: 'EthOn Ethereum Ontology'
 				},
-			useForInverseSameAs: true,
+			useForInverseSameAs: false,
 			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
 			endpointType : 'blazegraph',
 			examples: [{
