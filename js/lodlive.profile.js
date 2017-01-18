@@ -1,6 +1,18 @@
 $.jStorage.set('profile', {
 	// parametri di connessione agli endpoint
 	'connection' : {
+		'http://ethereum.ethstats.io/': {
+			description: {
+				en: 'Ethstats data'
+				},
+			useForInverseSameAs: true,
+			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
+			endpointType : 'blazegraph',
+			examples: [{
+				label: 'Block 1128001',
+				uri: 'http://ethereum.ethstats.io/Block_1128001'
+			}]
+			},
 		// base degli about dei documenti non dell'ontologia
 		'http://fr.dbpedia.org' : {
 			description : {
@@ -666,6 +678,7 @@ $.jStorage.set('showInfoConsole', $.jStorage.get('showInfoConsole', true));
 
 $.jStorage.set('endpoints', {
 	all : 'output=json&format=application/json&timeout=0',
+    	blazegraph : 'format=json&jsonp=lodlive',
 	arcSparql : 'output=json&jsonp=lodlive',
 	sesame : 'Accept=application/sparql-results%2Bjson'
 });
