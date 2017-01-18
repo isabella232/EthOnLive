@@ -12,7 +12,7 @@ $.jStorage.set('profile', {
 				label: 'Block 1128001',
 				uri: 'http://ethereum.ethstats.io/Block_1128001'
 			}]
-			},{
+		},
 		'http://ethon.consensys.net/': {
 			description: {
 				en: 'EthOn Ethereum Ontology'
@@ -24,7 +24,7 @@ $.jStorage.set('profile', {
 				label: 'A Block',
 				uri: 'http://ethon.consensys.net/Block'
 			}]
-			},
+		},
 		// base degli about dei documenti non dell'ontologia
 		'http://fr.dbpedia.org' : {
 			description : {
