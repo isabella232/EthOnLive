@@ -13,7 +13,7 @@ $.jStorage.set('profile', {
 			useForInverseSameAs : true,
 			/*change this*/
 			endpoint : 'https://linkeddata.aleth.io/sparql',
-			endpointType : 'arcSparql',
+			endpointType : 'graphdb',
 			examples : [{
 				label : 'Block 6575377',
 				uri : 'http://ethereum.ethstats.io/Block_6575377'
