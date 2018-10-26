@@ -11,16 +11,8 @@ $.jStorage.set('profile', {
 			examples: [{
 				label: 'Block 6575377',
 				uri: 'http://ethereum.ethstats.io/Block_6575377'
-			}]
-		},
-		'http://linkeddata.aleth.io/sparql': {
-			description: {
-				en: 'EthOn Ethereum Ontology'
-				},
-			useForInverseSameAs: false,
-			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
-			endpointType : 'graphDB',
-			examples: [{
+			},
+			{
 				label: 'A Block',
 				uri: 'http://ethon.consensys.net/Block'
 			}]
