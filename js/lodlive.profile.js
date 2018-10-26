@@ -1,7 +1,7 @@
 $.jStorage.set('profile', {
 	// parametri di connessione agli endpoint
 	'connection' : {
-		'http://ethereum.ethstats.io/': {
+		'http://linkeddata.aleth.io/sparql': {
 			description: {
 				en: 'Ethstats data'
 				},
@@ -13,7 +13,7 @@ $.jStorage.set('profile', {
 				uri: 'http://ethereum.ethstats.io/Block_6575377'
 			}]
 		},
-		'http://ethon.consensys.net/': {
+		'http://linkeddata.aleth.io/sparql': {
 			description: {
 				en: 'EthOn Ethereum Ontology'
 				},
