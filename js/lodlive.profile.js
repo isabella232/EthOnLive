@@ -6,11 +6,11 @@ $.jStorage.set('profile', {
 				en: 'Ethstats data'
 				},
 			useForInverseSameAs: true,
-			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
-			endpointType : 'blazegraph',
+			endpoint : 'http://linkeddata.aleth.io/sparql',
+			endpointType : 'graphDB',
 			examples: [{
-				label: 'Block 1128001',
-				uri: 'http://ethereum.ethstats.io/Block_1128001'
+				label: 'Block 6575377',
+				uri: 'http://ethereum.ethstats.io/Block_6575377'
 			}]
 		},
 		'http://ethon.consensys.net/': {
@@ -19,7 +19,7 @@ $.jStorage.set('profile', {
 				},
 			useForInverseSameAs: false,
 			endpoint : 'http://40.87.159.83:8080/blazegraph/namespace/alethio1/sparql',
-			endpointType : 'blazegraph',
+			endpointType : 'graphDB',
 			examples: [{
 				label: 'A Block',
 				uri: 'http://ethon.consensys.net/Block'
