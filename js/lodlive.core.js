@@ -1995,7 +1995,7 @@ var debugOn = false;
 
 			// aggiungo al box il titolo
 			var result = "<div class=\"boxTitle\"><span class=\"ellipsis_text\">";
-			var maxTitles = 3;
+			var maxTitles = 5;
 			for (var a = 0; a < titles.length && maxTitles > 0; a++) {
 				var resultArray = methods.getJsonValue(values, titles[a], titles[a].indexOf('http') == 0 ? '' : titles[a]);
 				if (titles[a].indexOf('http') != 0) {
